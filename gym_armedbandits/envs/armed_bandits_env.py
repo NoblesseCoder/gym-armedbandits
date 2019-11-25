@@ -6,7 +6,7 @@ import numpy as np
 class ArmedBanditsEnv(gym.Env):
 	
 	'''
-	k-armed bandits environment for RL-Trek (chapter-3, from the book Reinforcement Learning: 
+	k-armed bandits environment for RL-Trek (chapter-2, from the book Reinforcement Learning: 
 	An Inroduction, Richard S. Sutton & Andrew G. Barto)
 
 	Action values [i.e q*(a), a = 1 to k] is  sampled from N(0,1)
