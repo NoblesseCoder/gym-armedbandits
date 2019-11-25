@@ -1,9 +1,16 @@
+import pathlib
 from setuptools import setup
+
+HERE = pathlib.Path(__file__).parent
+README = (HERE / "README.md").read_text()
+
 
 setup(name='gym_armedbandits',
       version='0.0.1',
       url="https://github.com/NoblesseCoder/gym-armedbandits",
       author="Ashik Poovanna",
       description='k-armed bandits environment for OpenAI Gym',
+      long_description=README,
+      long_description_content_type="text/markdown",
       license='MIT License',
-      install_requires=['gym'])
+      install_requires=['gym','numpy'])
