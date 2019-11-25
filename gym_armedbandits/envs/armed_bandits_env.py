@@ -15,7 +15,7 @@ class ArmedBanditsEnv(gym.Env):
 
 	metadata={'render.modes':['human']}
 	
-	def __init__(self,k):
+	def __init__(self,k=10):
 		self.k = k
 		self.action_vals = [np.random.normal(0,1) for i in range(self.k)]
 		self.action_space = spaces.Discrete(self.k)

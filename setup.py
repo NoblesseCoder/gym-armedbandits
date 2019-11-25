@@ -6,4 +6,4 @@ setup(name='gym_armedbandits',
       author="Ashik Poovanna",
       description='k-armed bandits environment for OpenAI Gym',
       license='MIT License',
-      install_requires=['gym-armedbandits'])
+      install_requires=['gym'])
