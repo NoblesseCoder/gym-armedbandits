@@ -4,14 +4,14 @@ A simple gym environment implementing the **k-armed bandits** problem as describ
 ### Installation
 
 ```bash
-git clone git@github.com:NoblesseCoder/gym-armedbandits.git
-cd gym-armedbandits
+git clone git@github.com:NoblesseCoder/gym-karmedbandits.git
+cd gym-karmedbandits
 pip install -e .
 ```
 
 or 
 
 ```bash
-pip install gym-armedbandits==0.0.1
+pip install gym-karmedbandits==0.0.1
 ```
 
