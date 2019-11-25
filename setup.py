@@ -5,9 +5,9 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 
-setup(name='gym_armedbandits',
+setup(name='gym_karmedbandits',
       version='0.0.1',
-      url="https://github.com/NoblesseCoder/gym-armedbandits",
+      url="https://github.com/NoblesseCoder/gym-karmedbandits",
       author="Ashik Poovanna",
       description='k-armed bandits environment for OpenAI Gym',
       long_description=README,

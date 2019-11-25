@@ -3,7 +3,7 @@ from gym import spaces
 from gym.utils import seeding
 import numpy as np
 
-class ArmedBanditsEnv(gym.Env):
+class KArmedBanditsEnv(gym.Env):
 	
 	'''
 	k-armed bandits environment for RL-Trek (chapter-2, from the book Reinforcement Learning: 
