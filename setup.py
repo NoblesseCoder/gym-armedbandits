@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(name='gym_karmedbandits',
       version='0.0.1',
-      url="https://github.com/NoblesseCoder/karmedbandits",
+      url="https://github.com/NoblesseCoder/gym-karmedbandits",
       author="Ashik Poovanna",
       author_email="ashobot@gmail.com",	
       description='k-armed bandits environment for OpenAI Gym',

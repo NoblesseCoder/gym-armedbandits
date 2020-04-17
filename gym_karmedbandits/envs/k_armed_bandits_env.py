@@ -6,11 +6,11 @@ import numpy as np
 class KArmedBanditsEnv(gym.Env):
 	
 	'''
-	k-armed bandits environment for RL-Trek (chapter-2, from the book Reinforcement Learning: 
+	k-armed bandits environment (chapter-2, from the book Reinforcement Learning: 
 	An Inroduction, Richard S. Sutton & Andrew G. Barto)
 
-	Action values [i.e q*(a), a = 1 to k] is  sampled from N(0,1)
-	Reward values sampled from N(mean(q*(A_t),1)
+	True Action values [i.e q*(a), a = 1 to k] are sampled from a standard Gaussian/Normal distribution i.e N(0,1).
+	Reward values sampled from the N(mean(q*(A_t),1) distribution.
 	'''
 
 	metadata={'render.modes':['human']}
