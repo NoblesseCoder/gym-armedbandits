@@ -17,6 +17,12 @@ import gym_karmedbandits
 env = gym.make('KArmedBandits-v0') #useage
 ```
 
+
+
+### Demo
+
+[ε-Greedy Agent to solve the stationary MAB environment ](https://github.com/NoblesseCoder/reinforcei/blob/master/agents/tabular/epsilon_greedy_agent.py)
+
 ### References
 
 [1] https://stackoverflow.com/questions/45068568/how-to-create-a-new-gym-environment-in-openai
