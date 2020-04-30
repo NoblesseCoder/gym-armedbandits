@@ -19,6 +19,10 @@ env = gym.make('KArmedBandits-v0') #useage
 
 
 
+### True Value & Reward Distribution Plot
+
+![MAB_reward_dist_plot.jpg](https://github.com/NoblesseCoder/reinforcei/blob/master/inferences/MAB_reward_dist_plot.jpg?raw=true)
+
 ### Demo
 
 [ε-Greedy Agent to solve the stationary MAB environment ](https://github.com/NoblesseCoder/reinforcei/blob/master/agents/tabular/epsilon_greedy_agent.py)
