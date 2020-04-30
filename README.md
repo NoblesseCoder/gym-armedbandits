@@ -25,7 +25,7 @@ env = gym.make('KArmedBandits-v0') #useage
 
 ### Demo
 
-[ε-Greedy Agent to solve the stationary MAB environment ](https://github.com/NoblesseCoder/reinforcei/blob/master/agents/tabular/epsilon_greedy_agent.py)
+[ε-Greedy Agent to solve the stationary MAB environment ](https://github.com/NoblesseCoder/reinforcei/blob/master/demos/epsilon_greedy_agent_demo.py)
 
 ### References
 
